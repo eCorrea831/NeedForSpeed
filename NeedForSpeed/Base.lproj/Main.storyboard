@@ -132,6 +132,11 @@
                                         <state key="normal" title="What About Native?">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <segue destination="VaT-2O-AR5" kind="show" id="s6l-vz-s9K"/>
                                         </connections>
@@ -181,7 +186,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of users abandone an app after the first use" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wud-gp-MOS">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of users abandon an app after the first use" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wud-gp-MOS">
                                         <rect key="frame" x="0.0" y="73" width="335" height="73"/>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <nil key="textColor"/>
@@ -214,6 +219,14 @@
                                 <state key="normal" title="How Did TK Measure Up?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="3dt-gK-v6b" kind="show" id="C3u-xY-JHH"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rrE-nU-Luz">
                                 <rect key="frame" x="20" y="104" width="335" height="200"/>
@@ -247,6 +260,114 @@
             </objects>
             <point key="canvasLocation" x="1760.8" y="178.56071964017991"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="V5b-Or-qvW">
+            <objects>
+                <viewController id="3dt-gK-v6b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PQx-Oh-BHU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our app launch time was 4.2 seconds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGE-u1-WhV">
+                                <rect key="frame" x="20" y="104" width="335" height="60"/>
+                                <color key="backgroundColor" red="0.56470588239999997" green="0.83529411760000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Hi3-xE-k6V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple recommends 400ms or less" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtE-na-EZp">
+                                <rect key="frame" x="20" y="184" width="335" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measuring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZf-U1-o0W">
+                                <rect key="frame" x="20" y="245" width="76" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="measuring" translatesAutoresizingMaskIntoConstraints="NO" id="N8j-oC-VF8">
+                                <rect key="frame" x="20" y="269.5" width="335" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="N8j-oC-VF8" secondAttribute="height" multiplier="335:218" id="lY2-Dc-xit"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgu-pi-fec">
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Hl0-DS-KWU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                <state key="normal" title="What's Taking So Long?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="wta-FI-cAA" kind="show" id="WyJ-nw-eSt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cux-nx-35P">
+                                <rect key="frame" x="20" y="527.5" width="335" height="105"/>
+                                <string key="text">Differences:
+ - Scheme, Device type, Internet, Cold -vs- Warm starts
+</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iGE-u1-WhV" secondAttribute="trailing" constant="20" id="2Is-KP-Rgp"/>
+                            <constraint firstItem="AZf-U1-o0W" firstAttribute="top" secondItem="TtE-na-EZp" secondAttribute="bottom" constant="40" id="2ym-BS-u6c"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="cux-nx-35P" secondAttribute="trailing" constant="20" id="39y-wi-BRk"/>
+                            <constraint firstItem="iGE-u1-WhV" firstAttribute="top" secondItem="Poq-ey-itT" secondAttribute="top" constant="40" id="8FI-nu-KPw"/>
+                            <constraint firstItem="Vgu-pi-fec" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="Cbv-ej-Ka6"/>
+                            <constraint firstItem="cux-nx-35P" firstAttribute="top" secondItem="N8j-oC-VF8" secondAttribute="bottom" constant="40" id="FMc-JI-8zJ"/>
+                            <constraint firstItem="N8j-oC-VF8" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="PuB-0B-whf"/>
+                            <constraint firstItem="N8j-oC-VF8" firstAttribute="top" secondItem="AZf-U1-o0W" secondAttribute="bottom" constant="8" id="Spf-Al-tzg"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="Vgu-pi-fec" secondAttribute="trailing" constant="20" id="TJ2-6i-fZF"/>
+                            <constraint firstItem="iGE-u1-WhV" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="TYh-77-gO0"/>
+                            <constraint firstItem="TtE-na-EZp" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="Zd2-NZ-uh7"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="TtE-na-EZp" secondAttribute="trailing" constant="20" id="by8-bl-yxA"/>
+                            <constraint firstItem="AZf-U1-o0W" firstAttribute="leading" secondItem="N8j-oC-VF8" secondAttribute="leading" id="du0-Mk-5n1"/>
+                            <constraint firstItem="TtE-na-EZp" firstAttribute="top" secondItem="iGE-u1-WhV" secondAttribute="bottom" constant="20" id="gi9-rb-1nq"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="N8j-oC-VF8" secondAttribute="trailing" constant="20" id="tiI-du-wSP"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="bottom" secondItem="Vgu-pi-fec" secondAttribute="bottom" constant="20" id="tzx-Cq-SIe"/>
+                            <constraint firstItem="cux-nx-35P" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="y8M-se-lAe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Poq-ey-itT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QDN-YX-5pP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2485.5999999999999" y="178.56071964017991"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gp6-Vo-4Mg">
+            <objects>
+                <viewController id="wta-FI-cAA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dsc-B0-W8r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Qx3-Hw-BtB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P5g-wA-5Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3191" y="179"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
             <objects>
@@ -265,6 +386,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="measuring" width="884" height="486"/>
         <image name="saint_louis" width="2448" height="3264"/>
     </resources>
 </document>
