@@ -90,20 +90,59 @@
             </objects>
             <point key="canvasLocation" x="325.60000000000002" y="178.56071964017991"/>
         </scene>
-        <!--View Controller-->
+        <!--Why This Matters View Controller-->
         <scene sceneID="gHY-Uh-8JA">
             <objects>
-                <viewController id="roN-G8-2ss" sceneMemberID="viewController">
+                <viewController id="roN-G8-2ss" customClass="WhyThisMattersViewController" customModule="NeedForSpeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d8b-YW-TeQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strange Loop Conference, St. Louis " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
+                                <rect key="frame" x="8.5" y="104" width="358.5" height="20"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
+                                <rect key="frame" x="20" y="504" width="335" height="47"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
+                                <rect key="frame" x="20" y="571" width="335" height="70"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
+                                <rect key="frame" x="67" y="144" width="240" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="Sc6-bT-ge0"/>
+                                    <constraint firstAttribute="width" constant="240" id="rhA-tb-Ndi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="centerX" secondItem="d8b-YW-TeQ" secondAttribute="centerX" id="6XE-K2-pae"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="wlx-3B-l5S" secondAttribute="trailing" constant="20" id="7Rh-Nh-m3K"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="oPz-V2-B0S" secondAttribute="trailing" constant="20" id="7Sy-hJ-EeR"/>
+                            <constraint firstItem="oPz-V2-B0S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="9hh-uX-5JJ"/>
+                            <constraint firstItem="wlx-3B-l5S" firstAttribute="top" secondItem="nAR-wS-V62" secondAttribute="bottom" constant="40" id="L6X-Z2-fU0"/>
+                            <constraint firstItem="nAR-wS-V62" firstAttribute="top" secondItem="1Jz-Ow-hCf" secondAttribute="bottom" constant="20" id="Rc2-Px-0Fo"/>
+                            <constraint firstItem="oPz-V2-B0S" firstAttribute="top" secondItem="wlx-3B-l5S" secondAttribute="bottom" constant="20" id="nSz-TU-R7K"/>
+                            <constraint firstItem="wlx-3B-l5S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="nzB-mT-sbU"/>
+                            <constraint firstItem="nAR-wS-V62" firstAttribute="centerX" secondItem="d8b-YW-TeQ" secondAttribute="centerX" id="p72-5D-oxv"/>
+                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="top" secondItem="zFG-aX-AW7" secondAttribute="top" constant="40" id="zdA-o4-qKn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zFG-aX-AW7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-hM-UoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="179"/>
+            <point key="canvasLocation" x="1076" y="178.56071964017991"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
@@ -122,4 +161,7 @@
             <point key="canvasLocation" x="-377" y="179"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="saint_louis" width="2448" height="3264"/>
+    </resources>
 </document>
