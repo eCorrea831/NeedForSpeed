@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED22401B1FA3B80900C79D37 /* WhatThisMeansForMobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22401A1FA3B80900C79D37 /* WhatThisMeansForMobile.swift */; };
 		ED9E3A781FA3A84600094A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A771FA3A84600094A4B /* AppDelegate.swift */; };
 		ED9E3A7A1FA3A84600094A4B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A791FA3A84600094A4B /* IntroViewController.swift */; };
 		ED9E3A7D1FA3A84600094A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E3A7B1FA3A84600094A4B /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED22401A1FA3B80900C79D37 /* WhatThisMeansForMobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatThisMeansForMobile.swift; sourceTree = "<group>"; };
 		ED9E3A741FA3A84600094A4B /* NeedForSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedForSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9E3A771FA3A84600094A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED9E3A791FA3A84600094A4B /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				ED9E3A771FA3A84600094A4B /* AppDelegate.swift */,
 				ED9E3A791FA3A84600094A4B /* IntroViewController.swift */,
 				ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */,
+				ED22401A1FA3B80900C79D37 /* WhatThisMeansForMobile.swift */,
 				ED9E3A7B1FA3A84600094A4B /* Main.storyboard */,
 				ED9E3A7E1FA3A84600094A4B /* Assets.xcassets */,
 				ED9E3A801FA3A84600094A4B /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				ED9E3A7A1FA3A84600094A4B /* IntroViewController.swift in Sources */,
 				ED9E3A8C1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift in Sources */,
 				ED9E3A781FA3A84600094A4B /* AppDelegate.swift in Sources */,
+				ED22401B1FA3B80900C79D37 /* WhatThisMeansForMobile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

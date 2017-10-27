@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMh-8u-lBz">
-                                <rect key="frame" x="20" y="583" width="335" height="44"/>
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="oec-r5-9e1"/>
@@ -69,7 +69,7 @@
                         <constraints>
                             <constraint firstItem="3ar-C4-dO4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="7Rc-Vt-Kbd"/>
                             <constraint firstAttribute="trailing" secondItem="hS7-zD-6DH" secondAttribute="trailing" constant="20" id="7wU-Tf-Z2a"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yMh-8u-lBz" secondAttribute="bottom" constant="40" id="E48-L1-kZt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yMh-8u-lBz" secondAttribute="bottom" constant="20" id="E48-L1-kZt"/>
                             <constraint firstItem="pty-2Z-vG9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JSK-5X-cCh"/>
                             <constraint firstItem="3ar-C4-dO4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SrB-OQ-5h6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pty-2Z-vG9" secondAttribute="trailing" constant="20" id="auL-2n-sQZ"/>
@@ -98,51 +98,154 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strange Loop Conference, St. Louis " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
-                                <rect key="frame" x="8.5" y="104" width="358.5" height="20"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
-                                <rect key="frame" x="20" y="504" width="335" height="47"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
-                                <rect key="frame" x="20" y="571" width="335" height="70"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
-                                <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
-                                <rect key="frame" x="67" y="144" width="240" height="320"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DAb-se-Ano">
+                                <rect key="frame" x="20" y="104" width="335" height="523"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Strange Loop Conference, St. Louis " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
+                                        <rect key="frame" x="0.0" y="60" width="335" height="242"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
+                                        <rect key="frame" x="0.0" y="322" width="335" height="47"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
+                                        <rect key="frame" x="0.0" y="389" width="335" height="70"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                        <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDL-nr-vcL">
+                                        <rect key="frame" x="0.0" y="479" width="335" height="44"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Lhs-sa-E1g"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                        <state key="normal" title="What About Native?">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="VaT-2O-AR5" kind="show" id="s6l-vz-s9K"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="Sc6-bT-ge0"/>
-                                    <constraint firstAttribute="width" constant="240" id="rhA-tb-Ndi"/>
+                                    <constraint firstItem="1Jz-Ow-hCf" firstAttribute="top" secondItem="DAb-se-Ano" secondAttribute="top" id="0Zj-n6-u6b"/>
+                                    <constraint firstAttribute="trailing" secondItem="wlx-3B-l5S" secondAttribute="trailing" id="2f0-Xe-fjt"/>
+                                    <constraint firstAttribute="trailing" secondItem="oPz-V2-B0S" secondAttribute="trailing" id="4Y6-th-n93"/>
+                                    <constraint firstAttribute="trailing" secondItem="pDL-nr-vcL" secondAttribute="trailing" id="Mc0-he-1vw"/>
+                                    <constraint firstItem="pDL-nr-vcL" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="Uch-am-JUz"/>
+                                    <constraint firstItem="wlx-3B-l5S" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="huW-jL-qrw"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Jz-Ow-hCf" secondAttribute="trailing" id="iV6-wc-ovP"/>
+                                    <constraint firstItem="oPz-V2-B0S" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="krY-r8-JZd"/>
+                                    <constraint firstItem="1Jz-Ow-hCf" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="vpn-48-FNs"/>
                                 </constraints>
-                            </imageView>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="centerX" secondItem="d8b-YW-TeQ" secondAttribute="centerX" id="6XE-K2-pae"/>
-                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="wlx-3B-l5S" secondAttribute="trailing" constant="20" id="7Rh-Nh-m3K"/>
-                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="oPz-V2-B0S" secondAttribute="trailing" constant="20" id="7Sy-hJ-EeR"/>
-                            <constraint firstItem="oPz-V2-B0S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="9hh-uX-5JJ"/>
-                            <constraint firstItem="wlx-3B-l5S" firstAttribute="top" secondItem="nAR-wS-V62" secondAttribute="bottom" constant="40" id="L6X-Z2-fU0"/>
-                            <constraint firstItem="nAR-wS-V62" firstAttribute="top" secondItem="1Jz-Ow-hCf" secondAttribute="bottom" constant="20" id="Rc2-Px-0Fo"/>
-                            <constraint firstItem="oPz-V2-B0S" firstAttribute="top" secondItem="wlx-3B-l5S" secondAttribute="bottom" constant="20" id="nSz-TU-R7K"/>
-                            <constraint firstItem="wlx-3B-l5S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="nzB-mT-sbU"/>
-                            <constraint firstItem="nAR-wS-V62" firstAttribute="centerX" secondItem="d8b-YW-TeQ" secondAttribute="centerX" id="p72-5D-oxv"/>
-                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="top" secondItem="zFG-aX-AW7" secondAttribute="top" constant="40" id="zdA-o4-qKn"/>
+                            <constraint firstItem="DAb-se-Ano" firstAttribute="top" secondItem="zFG-aX-AW7" secondAttribute="top" constant="40" id="GgA-NE-UfJ"/>
+                            <constraint firstItem="DAb-se-Ano" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="Pya-m3-9Zr"/>
+                            <constraint firstAttribute="trailing" secondItem="DAb-se-Ano" secondAttribute="trailing" constant="20" id="qte-xf-bSY"/>
+                            <constraint firstAttribute="bottom" secondItem="DAb-se-Ano" secondAttribute="bottom" constant="40" id="vjA-sB-NeL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zFG-aX-AW7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-hM-UoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="178.56071964017991"/>
+            <point key="canvasLocation" x="1034" y="179"/>
+        </scene>
+        <!--What This Means For Mobile-->
+        <scene sceneID="3FO-Mg-JcA">
+            <objects>
+                <viewController id="VaT-2O-AR5" customClass="WhatThisMeansForMobile" customModule="NeedForSpeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bp3-5v-ksj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6YM-EZ-hK2">
+                                <rect key="frame" x="20" y="344" width="335" height="219"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Users expect  their apps to take 4 seconds or less to load" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V63-qM-mlO">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="73"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of users abandone an app after the first use" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wud-gp-MOS">
+                                        <rect key="frame" x="0.0" y="73" width="335" height="73"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In making that first impression, there's not a second to spare" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v1-Gx-95B">
+                                        <rect key="frame" x="0.0" y="146" width="335" height="73"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="wud-gp-MOS" firstAttribute="leading" secondItem="6YM-EZ-hK2" secondAttribute="leading" id="2Gg-nP-h1f"/>
+                                    <constraint firstAttribute="trailing" secondItem="V63-qM-mlO" secondAttribute="trailing" id="31T-rO-XDl"/>
+                                    <constraint firstItem="9v1-Gx-95B" firstAttribute="leading" secondItem="6YM-EZ-hK2" secondAttribute="leading" id="4v3-Na-Gz0"/>
+                                    <constraint firstAttribute="trailing" secondItem="9v1-Gx-95B" secondAttribute="trailing" id="4zo-zI-jOc"/>
+                                    <constraint firstItem="V63-qM-mlO" firstAttribute="leading" secondItem="6YM-EZ-hK2" secondAttribute="leading" id="Me4-IH-ldi"/>
+                                    <constraint firstAttribute="trailing" secondItem="wud-gp-MOS" secondAttribute="trailing" id="PGw-Mb-2Yq"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGU-pZ-DY6">
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="aHK-e6-bks"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                <state key="normal" title="How Did TK Measure Up?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rrE-nU-Luz">
+                                <rect key="frame" x="20" y="104" width="335" height="200"/>
+                                <color key="backgroundColor" red="0.56470588239999997" green="0.83529411760000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rrE-nU-Luz" secondAttribute="height" multiplier="67:40" id="cst-mc-QaH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z3c-0J-dF2" firstAttribute="trailing" secondItem="rrE-nU-Luz" secondAttribute="trailing" constant="20" id="5P6-qi-1rl"/>
+                            <constraint firstItem="Z3c-0J-dF2" firstAttribute="bottom" secondItem="nGU-pZ-DY6" secondAttribute="bottom" constant="20" id="61W-da-qPA"/>
+                            <constraint firstItem="Z3c-0J-dF2" firstAttribute="trailing" secondItem="nGU-pZ-DY6" secondAttribute="trailing" constant="20" id="AZ2-oP-4gV"/>
+                            <constraint firstItem="nGU-pZ-DY6" firstAttribute="top" secondItem="6YM-EZ-hK2" secondAttribute="bottom" constant="40" id="DFu-Lt-EpH"/>
+                            <constraint firstItem="6YM-EZ-hK2" firstAttribute="leading" secondItem="Z3c-0J-dF2" secondAttribute="leading" constant="20" id="Rze-h4-TTA"/>
+                            <constraint firstItem="rrE-nU-Luz" firstAttribute="centerX" secondItem="Bp3-5v-ksj" secondAttribute="centerX" id="Ytv-5Y-BjJ"/>
+                            <constraint firstItem="rrE-nU-Luz" firstAttribute="top" secondItem="Z3c-0J-dF2" secondAttribute="top" constant="40" id="eNC-gq-5Fb"/>
+                            <constraint firstItem="6YM-EZ-hK2" firstAttribute="top" secondItem="rrE-nU-Luz" secondAttribute="bottom" constant="40" id="epO-zC-4Ob"/>
+                            <constraint firstItem="rrE-nU-Luz" firstAttribute="leading" secondItem="Z3c-0J-dF2" secondAttribute="leading" constant="20" id="onp-Lm-ya7"/>
+                            <constraint firstItem="nGU-pZ-DY6" firstAttribute="leading" secondItem="Z3c-0J-dF2" secondAttribute="leading" constant="20" id="vhc-VR-7ys"/>
+                            <constraint firstItem="Z3c-0J-dF2" firstAttribute="trailing" secondItem="6YM-EZ-hK2" secondAttribute="trailing" constant="20" id="yW0-BA-vBV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z3c-0J-dF2"/>
+                    </view>
+                    <connections>
+                        <outlet property="angryPhoneImageView" destination="rrE-nU-Luz" id="W6s-bj-xrd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O6o-k2-6ES" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1760.8" y="178.56071964017991"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
