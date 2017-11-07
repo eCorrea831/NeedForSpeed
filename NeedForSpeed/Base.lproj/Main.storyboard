@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="42k-T2-w4k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="42k-T2-w4k">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -367,7 +367,6 @@
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="HNq-36-rt3"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="eS7-YP-0aX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
                                 <state key="normal" title="Now What?">
@@ -444,8 +443,6 @@
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Gx0-Du-dyX"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="fnq-ne-how"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="xDW-3e-KB0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
                                 <state key="normal" title="What's the Solution?">
@@ -505,9 +502,6 @@
                                 <rect key="frame" x="20" y="603" width="335" height="44"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="7ph-k5-1ar"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="8va-am-jEQ"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="GDc-uZ-CdX"/>
                                     <constraint firstAttribute="height" constant="44" id="MuM-26-x9b"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
@@ -617,21 +611,44 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZc-wm-fvG">
                                 <rect key="frame" x="20" y="486" width="335" height="147"/>
-                                <string key="text">This is a work in progress but we're almost at our goal of &lt; 1 second. We will need to check our app for unused resources every year and continue to shave down our asset catalog</string>
+                                <string key="text">This is a work in progress but we're almost at our goal of 
+&lt; 1 second. We will need to check our app for unused resources every year and continue to shave down our asset catalog</string>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbj-wA-DrY">
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4cA-N9-hcZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                <state key="normal" title="...">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="gTy-Zk-uat" kind="show" id="lry-XO-tze"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gZc-wm-fvG" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="4Ar-6g-Wr7"/>
                             <constraint firstItem="756-Ut-BWt" firstAttribute="top" secondItem="Owz-z1-puQ" secondAttribute="bottom" constant="40" id="5LI-DF-ZUJ"/>
+                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="cbj-wA-DrY" secondAttribute="trailing" constant="20" id="6zJ-zq-i9H"/>
                             <constraint firstItem="756-Ut-BWt" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="PIy-hy-ZTV"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="gZc-wm-fvG" secondAttribute="trailing" constant="20" id="QbP-Hq-s41"/>
                             <constraint firstItem="Owz-z1-puQ" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="Sg4-7w-Czg"/>
+                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="bottom" secondItem="cbj-wA-DrY" secondAttribute="bottom" constant="20" id="Ucf-NG-sxx"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="756-Ut-BWt" secondAttribute="trailing" constant="20" id="aY0-Dh-IXB"/>
                             <constraint firstItem="Owz-z1-puQ" firstAttribute="top" secondItem="KXf-Xt-tTL" secondAttribute="top" constant="80" id="fin-s1-o98"/>
+                            <constraint firstItem="cbj-wA-DrY" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="gGU-41-hHP"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="Owz-z1-puQ" secondAttribute="trailing" constant="20" id="pRp-Dn-KA5"/>
                             <constraint firstItem="gZc-wm-fvG" firstAttribute="top" secondItem="756-Ut-BWt" secondAttribute="bottom" constant="40" id="rzE-RS-Ucg"/>
                         </constraints>
@@ -644,6 +661,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9s3-Lc-UCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5341.6000000000004" y="178.56071964017991"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O49-Nl-yRq">
+            <objects>
+                <viewController id="gTy-Zk-uat" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SYu-pw-tUt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questions" translatesAutoresizingMaskIntoConstraints="NO" id="MvV-g2-YaD">
+                                <rect key="frame" x="0.0" y="214" width="375" height="238"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MvV-g2-YaD" secondAttribute="height" multiplier="375:238" id="kkY-jI-uvS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MvV-g2-YaD" firstAttribute="trailing" secondItem="emW-Xz-sj8" secondAttribute="trailing" id="TWV-ry-KlJ"/>
+                            <constraint firstItem="MvV-g2-YaD" firstAttribute="centerY" secondItem="SYu-pw-tUt" secondAttribute="centerY" id="gqG-8A-00O"/>
+                            <constraint firstItem="MvV-g2-YaD" firstAttribute="leading" secondItem="emW-Xz-sj8" secondAttribute="leading" id="tXz-T1-tFM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="emW-Xz-sj8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGB-QX-v10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6056.8000000000002" y="178.56071964017991"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
@@ -665,6 +710,7 @@
     <resources>
         <image name="imageLoadingTime" width="600" height="61"/>
         <image name="measuring" width="884" height="486"/>
+        <image name="questions" width="500" height="312"/>
         <image name="saint_louis" width="2448" height="3264"/>
         <image name="thinking" width="928" height="1238"/>
     </resources>
