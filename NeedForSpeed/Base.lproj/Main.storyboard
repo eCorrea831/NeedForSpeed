@@ -286,7 +286,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measuring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZf-U1-o0W">
-                                <rect key="frame" x="20" y="245" width="76" height="16.5"/>
+                                <rect key="frame" x="20" y="245" width="335" height="16.5"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -333,11 +333,12 @@
                             <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="cux-nx-35P" secondAttribute="trailing" constant="20" id="39y-wi-BRk"/>
                             <constraint firstItem="iGE-u1-WhV" firstAttribute="top" secondItem="Poq-ey-itT" secondAttribute="top" constant="40" id="8FI-nu-KPw"/>
                             <constraint firstItem="Vgu-pi-fec" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="Cbv-ej-Ka6"/>
+                            <constraint firstItem="AZf-U1-o0W" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="Dfq-TU-qxN"/>
                             <constraint firstItem="cux-nx-35P" firstAttribute="top" secondItem="N8j-oC-VF8" secondAttribute="bottom" constant="40" id="FMc-JI-8zJ"/>
-                            <constraint firstItem="N8j-oC-VF8" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="PuB-0B-whf"/>
                             <constraint firstItem="N8j-oC-VF8" firstAttribute="top" secondItem="AZf-U1-o0W" secondAttribute="bottom" constant="8" id="Spf-Al-tzg"/>
                             <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="Vgu-pi-fec" secondAttribute="trailing" constant="20" id="TJ2-6i-fZF"/>
                             <constraint firstItem="iGE-u1-WhV" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="TYh-77-gO0"/>
+                            <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="AZf-U1-o0W" secondAttribute="trailing" constant="20" id="Uox-uv-BGr"/>
                             <constraint firstItem="TtE-na-EZp" firstAttribute="leading" secondItem="Poq-ey-itT" secondAttribute="leading" constant="20" id="Zd2-NZ-uh7"/>
                             <constraint firstItem="Poq-ey-itT" firstAttribute="trailing" secondItem="TtE-na-EZp" secondAttribute="trailing" constant="20" id="by8-bl-yxA"/>
                             <constraint firstItem="AZf-U1-o0W" firstAttribute="leading" secondItem="N8j-oC-VF8" secondAttribute="leading" id="du0-Mk-5n1"/>
@@ -377,6 +378,9 @@
                                         <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="HoQ-BA-QaA" kind="show" id="gOx-Mw-zhi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SURPRISE!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MY8-qV-ZO5">
                                 <rect key="frame" x="106" y="104" width="163" height="35"/>
@@ -427,6 +431,210 @@
             </objects>
             <point key="canvasLocation" x="3189.5999999999999" y="178.56071964017991"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="D2W-MS-FJB">
+            <objects>
+                <viewController id="HoQ-BA-QaA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zem-9a-ncd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE5-zp-HWd">
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Gx0-Du-dyX"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="fnq-ne-how"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="xDW-3e-KB0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                <state key="normal" title="What's the Solution?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="k3i-hx-cf3" kind="show" id="s4l-5O-yEu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thinking" translatesAutoresizingMaskIntoConstraints="NO" id="bxx-EZ-kbf">
+                                <rect key="frame" x="70" y="287" width="235" height="323"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bxx-EZ-kbf" secondAttribute="height" multiplier="51:70" id="wpf-dJ-CNu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="949-Me-Sj1">
+                                <rect key="frame" x="20" y="104" width="335" height="163"/>
+                                <string key="text">Images are so important to delighting our users so rather than use less images we needed to think of better ways to include them in the app rather than clog up our assets catalog</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="70" id="4YT-Ea-zFc"/>
+                            <constraint firstItem="Iqk-RY-UWP" firstAttribute="trailing" secondItem="gE5-zp-HWd" secondAttribute="trailing" constant="20" id="6ty-Ms-wrA"/>
+                            <constraint firstItem="Iqk-RY-UWP" firstAttribute="bottom" secondItem="gE5-zp-HWd" secondAttribute="bottom" constant="20" id="M26-Ij-TBV"/>
+                            <constraint firstItem="Iqk-RY-UWP" firstAttribute="trailing" secondItem="bxx-EZ-kbf" secondAttribute="trailing" constant="70" id="N9L-CR-zud"/>
+                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="top" secondItem="949-Me-Sj1" secondAttribute="bottom" constant="20" id="NtB-zK-482"/>
+                            <constraint firstItem="gE5-zp-HWd" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="20" id="Uyh-ZI-Umm"/>
+                            <constraint firstAttribute="trailing" secondItem="949-Me-Sj1" secondAttribute="trailing" constant="20" id="lu6-CO-M5A"/>
+                            <constraint firstItem="949-Me-Sj1" firstAttribute="top" secondItem="Iqk-RY-UWP" secondAttribute="top" constant="40" id="q3P-1b-Atz"/>
+                            <constraint firstItem="949-Me-Sj1" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="20" id="tZv-Og-EJ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Iqk-RY-UWP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0TO-Nq-MJ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3917.5999999999999" y="178.56071964017991"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iSO-8b-AgT">
+            <objects>
+                <viewController id="k3i-hx-cf3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5gK-Gw-3k0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anl-VM-GP0">
+                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="7ph-k5-1ar"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="8va-am-jEQ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="GDc-uZ-CdX"/>
+                                    <constraint firstAttribute="height" constant="44" id="MuM-26-x9b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                <state key="normal" title="Did it Work?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="iq8-6l-XR9" kind="show" id="v5T-sD-wxb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media API" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZN-BX-OD3">
+                                <rect key="frame" x="20" y="500" width="335" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We store our bitmap images in the cloud using our Media API so we can calling the images at run-time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBM-as-f78">
+                                <rect key="frame" x="26" y="531.5" width="329" height="84"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LSUnusedResources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ws-Tu-anz">
+                                <rect key="frame" x="20" y="104" width="335" height="24"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OB-8n-nnl">
+                                <rect key="frame" x="26" y="136" width="329" height="126"/>
+                                <string key="text">We searched the app for old, unused assets, deleting them from the app. Keep an eye out for image names that are dynamically strung together at run-time.</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaintCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="490-0h-jy6">
+                                <rect key="frame" x="20" y="302" width="335" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYF-vv-JGQ">
+                                <rect key="frame" x="26" y="334" width="329" height="126"/>
+                                <string key="text">Using PaintCode software we are able to transform our vector images into drawn code. Drag the image in and export a Swift file that you then add to your Xcode project.</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="0ws-Tu-anz" secondAttribute="trailing" constant="20" id="20W-pV-kqq"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="490-0h-jy6" secondAttribute="trailing" constant="20" id="4et-vD-1aC"/>
+                            <constraint firstItem="gZN-BX-OD3" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="20" id="5g4-7o-AlD"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="oBM-as-f78" secondAttribute="trailing" constant="20" id="A4t-Mm-asL"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="gZN-BX-OD3" secondAttribute="trailing" constant="20" id="HP6-ic-Ys5"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="bottom" secondItem="anl-VM-GP0" secondAttribute="bottom" constant="20" id="Il7-EG-3KI"/>
+                            <constraint firstItem="oBM-as-f78" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="26" id="OfL-uh-tiu"/>
+                            <constraint firstItem="eYF-vv-JGQ" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="26" id="PBG-i3-de8"/>
+                            <constraint firstItem="gZN-BX-OD3" firstAttribute="top" secondItem="eYF-vv-JGQ" secondAttribute="bottom" constant="40" id="aeF-Q4-jZx"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="anl-VM-GP0" secondAttribute="trailing" constant="20" id="dyH-Aa-ZXK"/>
+                            <constraint firstItem="4OB-8n-nnl" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="26" id="efa-3p-qwA"/>
+                            <constraint firstItem="490-0h-jy6" firstAttribute="top" secondItem="4OB-8n-nnl" secondAttribute="bottom" constant="40" id="gJx-6H-UOH"/>
+                            <constraint firstItem="0ws-Tu-anz" firstAttribute="top" secondItem="bCI-y9-ELH" secondAttribute="top" constant="40" id="gXf-Cg-2k4"/>
+                            <constraint firstItem="490-0h-jy6" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="20" id="j68-wx-fSZ"/>
+                            <constraint firstItem="oBM-as-f78" firstAttribute="top" secondItem="gZN-BX-OD3" secondAttribute="bottom" constant="8" id="jTv-ar-DeQ"/>
+                            <constraint firstAttribute="trailing" secondItem="eYF-vv-JGQ" secondAttribute="trailing" constant="20" id="k8f-sm-xMA"/>
+                            <constraint firstItem="eYF-vv-JGQ" firstAttribute="top" secondItem="490-0h-jy6" secondAttribute="bottom" constant="8" id="kip-Ln-Gqe"/>
+                            <constraint firstItem="4OB-8n-nnl" firstAttribute="top" secondItem="0ws-Tu-anz" secondAttribute="bottom" constant="8" id="kqr-Vb-lb7"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="4OB-8n-nnl" secondAttribute="trailing" constant="20" id="lZx-6u-ioc"/>
+                            <constraint firstItem="0ws-Tu-anz" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="20" id="uwS-S8-cxT"/>
+                            <constraint firstItem="anl-VM-GP0" firstAttribute="leading" secondItem="5gK-Gw-3k0" secondAttribute="leading" constant="20" id="wcT-GK-TuR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bCI-y9-ELH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq0-Xg-ib8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4624.8000000000002" y="178.56071964017991"/>
+        </scene>
+        <!--Hooray View Controller-->
+        <scene sceneID="LIN-Wc-jrO">
+            <objects>
+                <viewController id="iq8-6l-XR9" customClass="HoorayViewController" customModule="NeedForSpeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Knc-XU-BxS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="756-Ut-BWt">
+                                <rect key="frame" x="20" y="254" width="335" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="756-Ut-BWt" secondAttribute="height" multiplier="335:192" id="rkW-6N-z2W"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owz-z1-puQ">
+                                <rect key="frame" x="20" y="144" width="335" height="70"/>
+                                <string key="text">Current App launch time is: ** seconds
+</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="756-Ut-BWt" firstAttribute="top" secondItem="Owz-z1-puQ" secondAttribute="bottom" constant="40" id="5LI-DF-ZUJ"/>
+                            <constraint firstItem="756-Ut-BWt" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="PIy-hy-ZTV"/>
+                            <constraint firstItem="Owz-z1-puQ" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="Sg4-7w-Czg"/>
+                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="756-Ut-BWt" secondAttribute="trailing" constant="20" id="aY0-Dh-IXB"/>
+                            <constraint firstItem="Owz-z1-puQ" firstAttribute="top" secondItem="KXf-Xt-tTL" secondAttribute="top" constant="80" id="fin-s1-o98"/>
+                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="Owz-z1-puQ" secondAttribute="trailing" constant="20" id="pRp-Dn-KA5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KXf-Xt-tTL"/>
+                    </view>
+                    <connections>
+                        <outlet property="celebrateImageView" destination="756-Ut-BWt" id="mzS-AC-XX5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9s3-Lc-UCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5341.6000000000004" y="178.56071964017991"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
             <objects>
@@ -448,5 +656,6 @@
         <image name="imageLoadingTime" width="600" height="61"/>
         <image name="measuring" width="884" height="486"/>
         <image name="saint_louis" width="2448" height="3264"/>
+        <image name="thinking" width="928" height="1238"/>
     </resources>
 </document>

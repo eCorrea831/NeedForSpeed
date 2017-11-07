@@ -16,6 +16,7 @@
 		ED9E3A821FA3A84600094A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E3A801FA3A84600094A4B /* LaunchScreen.storyboard */; };
 		ED9E3A8C1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A8B1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift */; };
 		ED9E3A8E1FA3B18F00094A4B /* WhyThisMattersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */; };
+		EDBA96331FB139E000A5762F /* HoorayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA96321FB139E000A5762F /* HoorayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ED9E3A831FA3A84600094A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED9E3A8B1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyThisMattersViewController.swift; sourceTree = "<group>"; };
+		EDBA96321FB139E000A5762F /* HoorayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoorayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */,
 				ED22401A1FA3B80900C79D37 /* WhatThisMeansForMobile.swift */,
 				ED6DB6C71FA3D42A0046A3F8 /* WhatsTakingSoLong.swift */,
+				EDBA96321FB139E000A5762F /* HoorayViewController.swift */,
 				ED9E3A7B1FA3A84600094A4B /* Main.storyboard */,
 				ED9E3A7E1FA3A84600094A4B /* Assets.xcassets */,
 				ED9E3A801FA3A84600094A4B /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 				ED9E3A8C1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift in Sources */,
 				ED9E3A781FA3A84600094A4B /* AppDelegate.swift in Sources */,
 				ED22401B1FA3B80900C79D37 /* WhatThisMeansForMobile.swift in Sources */,
+				EDBA96331FB139E000A5762F /* HoorayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
