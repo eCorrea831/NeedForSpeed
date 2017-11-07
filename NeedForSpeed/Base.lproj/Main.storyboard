@@ -609,21 +609,31 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owz-z1-puQ">
                                 <rect key="frame" x="20" y="144" width="335" height="70"/>
-                                <string key="text">Current App launch time is: ** seconds
+                                <string key="text">Current App launch time is: 2.3 seconds
 </string>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZc-wm-fvG">
+                                <rect key="frame" x="20" y="486" width="335" height="147"/>
+                                <string key="text">This is a work in progress but we're almost at our goal of &lt; 1 second. We will need to check our app for unused resources every year and continue to shave down our asset catalog</string>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="gZc-wm-fvG" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="4Ar-6g-Wr7"/>
                             <constraint firstItem="756-Ut-BWt" firstAttribute="top" secondItem="Owz-z1-puQ" secondAttribute="bottom" constant="40" id="5LI-DF-ZUJ"/>
                             <constraint firstItem="756-Ut-BWt" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="PIy-hy-ZTV"/>
+                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="gZc-wm-fvG" secondAttribute="trailing" constant="20" id="QbP-Hq-s41"/>
                             <constraint firstItem="Owz-z1-puQ" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="Sg4-7w-Czg"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="756-Ut-BWt" secondAttribute="trailing" constant="20" id="aY0-Dh-IXB"/>
                             <constraint firstItem="Owz-z1-puQ" firstAttribute="top" secondItem="KXf-Xt-tTL" secondAttribute="top" constant="80" id="fin-s1-o98"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="Owz-z1-puQ" secondAttribute="trailing" constant="20" id="pRp-Dn-KA5"/>
+                            <constraint firstItem="gZc-wm-fvG" firstAttribute="top" secondItem="756-Ut-BWt" secondAttribute="bottom" constant="40" id="rzE-RS-Ucg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KXf-Xt-tTL"/>
                     </view>
