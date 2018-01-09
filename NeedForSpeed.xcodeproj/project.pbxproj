@@ -16,6 +16,10 @@
 		ED9E3A821FA3A84600094A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9E3A801FA3A84600094A4B /* LaunchScreen.storyboard */; };
 		ED9E3A8C1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A8B1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift */; };
 		ED9E3A8E1FA3B18F00094A4B /* WhyThisMattersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */; };
+		EDB24BE6200556C30084EE4E /* Hack-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE2200556A20084EE4E /* Hack-Bold.ttf */; };
+		EDB24BE7200556C60084EE4E /* Hack-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE3200556A30084EE4E /* Hack-BoldItalic.ttf */; };
+		EDB24BE8200556CA0084EE4E /* Hack-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE5200556A50084EE4E /* Hack-Italic.ttf */; };
+		EDB24BE9200556CD0084EE4E /* Hack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE4200556A40084EE4E /* Hack-Regular.ttf */; };
 		EDBA96331FB139E000A5762F /* HoorayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA96321FB139E000A5762F /* HoorayViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		ED9E3A831FA3A84600094A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED9E3A8B1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyThisMattersViewController.swift; sourceTree = "<group>"; };
+		EDB24BE2200556A20084EE4E /* Hack-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Bold.ttf"; sourceTree = "<group>"; };
+		EDB24BE3200556A30084EE4E /* Hack-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EDB24BE4200556A40084EE4E /* Hack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Regular.ttf"; sourceTree = "<group>"; };
+		EDB24BE5200556A50084EE4E /* Hack-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Italic.ttf"; sourceTree = "<group>"; };
 		EDBA96321FB139E000A5762F /* HoorayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoorayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +72,7 @@
 		ED9E3A761FA3A84600094A4B /* NeedForSpeed */ = {
 			isa = PBXGroup;
 			children = (
+				EDB24BE1200556930084EE4E /* Fonts */,
 				ED9E3A771FA3A84600094A4B /* AppDelegate.swift */,
 				ED9E3A791FA3A84600094A4B /* IntroViewController.swift */,
 				ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */,
@@ -77,6 +86,17 @@
 				ED9E3A8B1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift */,
 			);
 			path = NeedForSpeed;
+			sourceTree = "<group>";
+		};
+		EDB24BE1200556930084EE4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDB24BE2200556A20084EE4E /* Hack-Bold.ttf */,
+				EDB24BE3200556A30084EE4E /* Hack-BoldItalic.ttf */,
+				EDB24BE5200556A50084EE4E /* Hack-Italic.ttf */,
+				EDB24BE4200556A40084EE4E /* Hack-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +160,10 @@
 			files = (
 				ED9E3A821FA3A84600094A4B /* LaunchScreen.storyboard in Resources */,
 				ED9E3A7F1FA3A84600094A4B /* Assets.xcassets in Resources */,
+				EDB24BE9200556CD0084EE4E /* Hack-Regular.ttf in Resources */,
+				EDB24BE7200556C60084EE4E /* Hack-BoldItalic.ttf in Resources */,
+				EDB24BE8200556CA0084EE4E /* Hack-Italic.ttf in Resources */,
+				EDB24BE6200556C30084EE4E /* Hack-Bold.ttf in Resources */,
 				ED9E3A7D1FA3A84600094A4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
