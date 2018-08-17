@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="42k-T2-w4k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="42k-T2-w4k">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -33,26 +33,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need for Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ar-C4-dO4">
-                                <rect key="frame" x="61.5" y="104" width="253" height="35"/>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="30"/>
+                                <rect key="frame" x="-108" y="104" width="591" height="81.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS7-zD-6DH">
-                                <rect key="frame" x="20" y="179" width="335" height="84"/>
+                                <rect key="frame" x="20" y="225.5" width="335" height="582.5"/>
                                 <string key="text">How XO Optimized the Image Loading Time on The Knot App 
 (...and why that's a big deal)</string>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMh-8u-lBz">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="oec-r5-9e1"/>
+                                    <constraint firstAttribute="height" constant="80" id="oec-r5-9e1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Get Mind Blown">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,7 +67,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pty-2Z-vG9">
-                                <rect key="frame" x="20" y="323" width="335" height="235"/>
+                                <rect key="frame" x="20" y="868" width="335" height="235"/>
                                 <color key="backgroundColor" red="0.56470588239999997" green="0.83529411760000005" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pty-2Z-vG9" secondAttribute="height" multiplier="67:47" id="BRC-mb-dCh"/>
@@ -107,76 +107,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DAb-se-Ano">
-                                <rect key="frame" x="20" y="104" width="335" height="523"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Strange Loop Conference, St. Louis " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
-                                        <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
-                                        <rect key="frame" x="0.0" y="60" width="335" height="242"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
-                                        <rect key="frame" x="0.0" y="322" width="335" height="47"/>
-                                        <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="20"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
-                                        <rect key="frame" x="0.0" y="389" width="335" height="70"/>
-                                        <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="20"/>
-                                        <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDL-nr-vcL">
-                                        <rect key="frame" x="0.0" y="479" width="335" height="44"/>
-                                        <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="Lhs-sa-E1g"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
-                                        <state key="normal" title="What About Native?">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <segue destination="VaT-2O-AR5" kind="show" id="s6l-vz-s9K"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Strange Loop Conference, St. Louis " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
+                                <rect key="frame" x="20" y="104" width="2027" height="81.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
+                                <rect key="frame" x="40" y="370" width="1987" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
+                                <rect key="frame" x="40" y="468.5" width="1987" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDL-nr-vcL">
+                                <rect key="frame" x="20" y="567" width="2027" height="80"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="1Jz-Ow-hCf" firstAttribute="top" secondItem="DAb-se-Ano" secondAttribute="top" id="0Zj-n6-u6b"/>
-                                    <constraint firstAttribute="trailing" secondItem="wlx-3B-l5S" secondAttribute="trailing" id="2f0-Xe-fjt"/>
-                                    <constraint firstAttribute="trailing" secondItem="oPz-V2-B0S" secondAttribute="trailing" id="4Y6-th-n93"/>
-                                    <constraint firstAttribute="trailing" secondItem="pDL-nr-vcL" secondAttribute="trailing" id="Mc0-he-1vw"/>
-                                    <constraint firstItem="pDL-nr-vcL" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="Uch-am-JUz"/>
-                                    <constraint firstItem="wlx-3B-l5S" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="huW-jL-qrw"/>
-                                    <constraint firstAttribute="trailing" secondItem="1Jz-Ow-hCf" secondAttribute="trailing" id="iV6-wc-ovP"/>
-                                    <constraint firstItem="oPz-V2-B0S" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="krY-r8-JZd"/>
-                                    <constraint firstItem="1Jz-Ow-hCf" firstAttribute="leading" secondItem="DAb-se-Ano" secondAttribute="leading" id="vpn-48-FNs"/>
+                                    <constraint firstAttribute="height" constant="80" id="Lhs-sa-E1g"/>
                                 </constraints>
-                            </stackView>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
+                                <state key="normal" title="What About Native?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VaT-2O-AR5" kind="show" id="s6l-vz-s9K"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
+                                <rect key="frame" x="300" y="225.5" width="2487.5" height="3264"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nAR-wS-V62" secondAttribute="height" multiplier="157:206" id="wRG-Pg-NMK"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="DAb-se-Ano" firstAttribute="top" secondItem="zFG-aX-AW7" secondAttribute="top" constant="40" id="GgA-NE-UfJ"/>
-                            <constraint firstItem="DAb-se-Ano" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="Pya-m3-9Zr"/>
-                            <constraint firstAttribute="trailing" secondItem="DAb-se-Ano" secondAttribute="trailing" constant="20" id="qte-xf-bSY"/>
-                            <constraint firstAttribute="bottom" secondItem="DAb-se-Ano" secondAttribute="bottom" constant="40" id="vjA-sB-NeL"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="nAR-wS-V62" secondAttribute="trailing" constant="300" id="8pg-R9-1S1"/>
+                            <constraint firstItem="oPz-V2-B0S" firstAttribute="top" secondItem="wlx-3B-l5S" secondAttribute="bottom" constant="40" id="9R0-5p-NVo"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="oPz-V2-B0S" secondAttribute="trailing" constant="40" id="Dl2-zy-Fa4"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="wlx-3B-l5S" secondAttribute="trailing" constant="40" id="I2j-QI-ahb"/>
+                            <constraint firstItem="nAR-wS-V62" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="300" id="Jo7-Ln-hcm"/>
+                            <constraint firstItem="pDL-nr-vcL" firstAttribute="top" secondItem="oPz-V2-B0S" secondAttribute="bottom" constant="40" id="Ktc-sq-N1z"/>
+                            <constraint firstItem="wlx-3B-l5S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="40" id="QbN-cB-DKJ"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="pDL-nr-vcL" secondAttribute="trailing" constant="20" id="Wr5-jt-5Fd"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="bottom" secondItem="pDL-nr-vcL" secondAttribute="bottom" constant="20" id="f3s-pd-UKj"/>
+                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="top" secondItem="zFG-aX-AW7" secondAttribute="top" constant="40" id="mGi-sO-CVx"/>
+                            <constraint firstItem="1Jz-Ow-hCf" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="r5z-gx-umN"/>
+                            <constraint firstItem="pDL-nr-vcL" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="20" id="sni-H8-UGR"/>
+                            <constraint firstItem="zFG-aX-AW7" firstAttribute="trailing" secondItem="1Jz-Ow-hCf" secondAttribute="trailing" constant="20" id="t0f-pG-sxD"/>
+                            <constraint firstItem="oPz-V2-B0S" firstAttribute="leading" secondItem="zFG-aX-AW7" secondAttribute="leading" constant="40" id="t7y-pV-LGN"/>
+                            <constraint firstItem="nAR-wS-V62" firstAttribute="top" secondItem="1Jz-Ow-hCf" secondAttribute="bottom" constant="40" id="tOG-ZS-xPb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zFG-aX-AW7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLt-hM-UoZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1034" y="179"/>
+            <point key="canvasLocation" x="1032.8" y="178.56071964017991"/>
         </scene>
         <!--What This Means For Mobile-->
         <scene sceneID="3FO-Mg-JcA">
@@ -190,19 +188,19 @@
                                 <rect key="frame" x="20" y="344" width="335" height="219"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile users expect  their apps to take 4 seconds or less to load" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V63-qM-mlO">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="73"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="82"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of users abandon an app after the first use" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wud-gp-MOS">
-                                        <rect key="frame" x="0.0" y="73" width="335" height="73"/>
+                                        <rect key="frame" x="0.0" y="82" width="335" height="55"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In making that first impression, there's not a second to spare" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v1-Gx-95B">
-                                        <rect key="frame" x="0.0" y="146" width="335" height="73"/>
+                                        <rect key="frame" x="0.0" y="137" width="335" height="82"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -391,7 +389,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SURPRISE!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MY8-qV-ZO5">
-                                <rect key="frame" x="106" y="104" width="163" height="35"/>
+                                <rect key="frame" x="110" y="104" width="155" height="35"/>
                                 <fontDescription key="fontDescription" name="Hack-BoldItalic" family="Hack" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -467,7 +465,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thinking" translatesAutoresizingMaskIntoConstraints="NO" id="bxx-EZ-kbf">
-                                <rect key="frame" x="70" y="287" width="235" height="323"/>
+                                <rect key="frame" x="70" y="287" width="235" height="322.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bxx-EZ-kbf" secondAttribute="height" multiplier="51:70" id="wpf-dJ-CNu"/>
                                 </constraints>
@@ -629,13 +627,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paintcode" translatesAutoresizingMaskIntoConstraints="NO" id="iS5-0U-rsS">
-                                <rect key="frame" x="20" y="360.5" width="335" height="267"/>
+                                <rect key="frame" x="20" y="339.5" width="335" height="267"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="iS5-0U-rsS" secondAttribute="height" multiplier="335:267" id="yQX-xo-XSm"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjb-KY-w0X">
-                                <rect key="frame" x="20" y="214.5" width="335" height="126"/>
+                                <rect key="frame" x="20" y="214.5" width="335" height="105"/>
                                 <string key="text">Using PaintCode software we are able to transform our vector images into drawn code. We just drag the image in and export a Swift file that we then add to the Xcode project.</string>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -818,7 +816,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questions" translatesAutoresizingMaskIntoConstraints="NO" id="MvV-g2-YaD">
-                                <rect key="frame" x="0.0" y="214" width="375" height="238"/>
+                                <rect key="frame" x="0.0" y="214.5" width="375" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="MvV-g2-YaD" secondAttribute="height" multiplier="375:238" id="kkY-jI-uvS"/>
                                 </constraints>
