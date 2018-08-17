@@ -448,12 +448,12 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE5-zp-HWd">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="4823" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="Gx0-Du-dyX"/>
+                                    <constraint firstAttribute="height" constant="80" id="Gx0-Du-dyX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
                                 <state key="normal" title="What's the Solution?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -467,29 +467,29 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thinking" translatesAutoresizingMaskIntoConstraints="NO" id="bxx-EZ-kbf">
-                                <rect key="frame" x="70" y="287" width="235" height="322.5"/>
+                                <rect key="frame" x="300" y="276.5" width="928" height="1273.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bxx-EZ-kbf" secondAttribute="height" multiplier="51:70" id="wpf-dJ-CNu"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="949-Me-Sj1">
-                                <rect key="frame" x="20" y="104" width="335" height="163"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="949-Me-Sj1">
+                                <rect key="frame" x="20" y="144" width="4823" height="52.5"/>
                                 <string key="text">Images are so important to delighting our users so rather than use less images we needed to think of better ways to include them in the app rather than clog up our assets catalog</string>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="70" id="4YT-Ea-zFc"/>
+                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="300" id="4YT-Ea-zFc"/>
                             <constraint firstItem="Iqk-RY-UWP" firstAttribute="trailing" secondItem="gE5-zp-HWd" secondAttribute="trailing" constant="20" id="6ty-Ms-wrA"/>
                             <constraint firstItem="Iqk-RY-UWP" firstAttribute="bottom" secondItem="gE5-zp-HWd" secondAttribute="bottom" constant="20" id="M26-Ij-TBV"/>
-                            <constraint firstItem="Iqk-RY-UWP" firstAttribute="trailing" secondItem="bxx-EZ-kbf" secondAttribute="trailing" constant="70" id="N9L-CR-zud"/>
-                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="top" secondItem="949-Me-Sj1" secondAttribute="bottom" constant="20" id="NtB-zK-482"/>
+                            <constraint firstItem="Iqk-RY-UWP" firstAttribute="trailing" secondItem="bxx-EZ-kbf" secondAttribute="trailing" constant="300" id="N9L-CR-zud"/>
+                            <constraint firstItem="bxx-EZ-kbf" firstAttribute="top" secondItem="949-Me-Sj1" secondAttribute="bottom" constant="80" id="NtB-zK-482"/>
                             <constraint firstItem="gE5-zp-HWd" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="20" id="Uyh-ZI-Umm"/>
                             <constraint firstAttribute="trailing" secondItem="949-Me-Sj1" secondAttribute="trailing" constant="20" id="lu6-CO-M5A"/>
-                            <constraint firstItem="949-Me-Sj1" firstAttribute="top" secondItem="Iqk-RY-UWP" secondAttribute="top" constant="40" id="q3P-1b-Atz"/>
+                            <constraint firstItem="949-Me-Sj1" firstAttribute="top" secondItem="Iqk-RY-UWP" secondAttribute="top" constant="80" id="q3P-1b-Atz"/>
                             <constraint firstItem="949-Me-Sj1" firstAttribute="leading" secondItem="Iqk-RY-UWP" secondAttribute="leading" constant="20" id="tZv-Og-EJ5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Iqk-RY-UWP"/>
@@ -508,13 +508,13 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anl-VM-GP0">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="MuM-26-x9b"/>
+                                    <constraint firstAttribute="height" constant="80" id="MuM-26-x9b"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
-                                <state key="normal" title="Now What?">
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
+                                <state key="normal" title="What Else?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -526,61 +526,39 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                     <segue destination="oKU-Cp-dWp" kind="show" id="wct-ER-Z7O"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LSUnusedResources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ws-Tu-anz">
-                                <rect key="frame" x="20" y="124" width="335" height="24"/>
-                                <fontDescription key="fontDescription" name="Hack-Italic" family="Hack" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We searched the app for old, unused assets, deleting them from the app using LSUnusedResources" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OB-8n-nnl">
+                                <rect key="frame" x="40" y="104" width="295" height="698.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We searched the app for old, unused assets, deleting them from the app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OB-8n-nnl">
-                                <rect key="frame" x="26" y="178" width="329" height="63"/>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lsunused" translatesAutoresizingMaskIntoConstraints="NO" id="8EF-rL-c9d">
-                                <rect key="frame" x="239" y="64" width="136" height="112"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="136" id="VkJ-nT-PhP"/>
-                                    <constraint firstAttribute="height" constant="112" id="myn-AM-5Mw"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep an eye out for image names that are dynamically strung together at run-time" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsm-La-05j">
-                                <rect key="frame" x="20" y="500" width="335" height="63"/>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep an eye out for image names that are dynamically strung together at run-time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsm-La-05j">
+                                <rect key="frame" x="40" y="-35.5" width="295" height="582.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unusedassets" translatesAutoresizingMaskIntoConstraints="NO" id="ZAh-Pz-Ktb">
-                                <rect key="frame" x="0.0" y="251" width="375" height="302"/>
+                                <rect key="frame" x="150" y="822.5" width="75" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ZAh-Pz-Ktb" secondAttribute="height" multiplier="375:302" id="o8C-j4-EnY"/>
+                                    <constraint firstAttribute="width" secondItem="ZAh-Pz-Ktb" secondAttribute="height" multiplier="1:1" id="o8C-j4-EnY"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Rsm-La-05j" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="20" id="0Qp-dU-4w8"/>
-                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="0ws-Tu-anz" secondAttribute="trailing" constant="20" id="20W-pV-kqq"/>
-                            <constraint firstItem="8EF-rL-c9d" firstAttribute="trailing" secondItem="bCI-y9-ELH" secondAttribute="trailing" id="43J-VT-aYm"/>
-                            <constraint firstItem="8EF-rL-c9d" firstAttribute="trailing" secondItem="bCI-y9-ELH" secondAttribute="trailing" id="FF8-rN-u4z"/>
-                            <constraint firstItem="anl-VM-GP0" firstAttribute="top" secondItem="Rsm-La-05j" secondAttribute="bottom" constant="40" id="GBd-BD-TMQ"/>
+                            <constraint firstItem="Rsm-La-05j" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="40" id="0Qp-dU-4w8"/>
+                            <constraint firstItem="anl-VM-GP0" firstAttribute="top" secondItem="Rsm-La-05j" secondAttribute="bottom" constant="20" id="GBd-BD-TMQ"/>
                             <constraint firstItem="bCI-y9-ELH" firstAttribute="bottom" secondItem="anl-VM-GP0" secondAttribute="bottom" constant="20" id="Il7-EG-3KI"/>
-                            <constraint firstAttribute="trailing" secondItem="Rsm-La-05j" secondAttribute="trailing" constant="20" id="KGm-sx-4by"/>
-                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="trailing" secondItem="bCI-y9-ELH" secondAttribute="trailing" id="LR9-hv-VRr"/>
-                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="top" secondItem="4OB-8n-nnl" secondAttribute="bottom" constant="10" id="USN-cO-RTy"/>
+                            <constraint firstAttribute="trailing" secondItem="Rsm-La-05j" secondAttribute="trailing" constant="40" id="KGm-sx-4by"/>
+                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="top" secondItem="4OB-8n-nnl" secondAttribute="bottom" constant="20" id="USN-cO-RTy"/>
                             <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="anl-VM-GP0" secondAttribute="trailing" constant="20" id="dyH-Aa-ZXK"/>
-                            <constraint firstItem="4OB-8n-nnl" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="26" id="efa-3p-qwA"/>
-                            <constraint firstItem="0ws-Tu-anz" firstAttribute="top" secondItem="bCI-y9-ELH" secondAttribute="top" constant="60" id="gXf-Cg-2k4"/>
-                            <constraint firstItem="4OB-8n-nnl" firstAttribute="top" secondItem="0ws-Tu-anz" secondAttribute="bottom" constant="30" id="kqr-Vb-lb7"/>
-                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="4OB-8n-nnl" secondAttribute="trailing" constant="20" id="lZx-6u-ioc"/>
-                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" id="rfT-Ry-mQ9"/>
-                            <constraint firstItem="8EF-rL-c9d" firstAttribute="top" secondItem="bCI-y9-ELH" secondAttribute="top" id="tET-2X-Uux"/>
-                            <constraint firstItem="0ws-Tu-anz" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="20" id="uwS-S8-cxT"/>
+                            <constraint firstItem="4OB-8n-nnl" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="40" id="efa-3p-qwA"/>
+                            <constraint firstItem="4OB-8n-nnl" firstAttribute="top" secondItem="bCI-y9-ELH" secondAttribute="top" constant="40" id="lXc-BM-5bD"/>
+                            <constraint firstItem="bCI-y9-ELH" firstAttribute="trailing" secondItem="4OB-8n-nnl" secondAttribute="trailing" constant="40" id="lZx-6u-ioc"/>
+                            <constraint firstAttribute="trailing" secondItem="ZAh-Pz-Ktb" secondAttribute="trailing" constant="150" id="rFZ-ne-eCQ"/>
+                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" constant="150" id="rfT-Ry-mQ9"/>
                             <constraint firstItem="anl-VM-GP0" firstAttribute="leading" secondItem="5gK-Gw-3k0" secondAttribute="leading" constant="20" id="wcT-GK-TuR"/>
-                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="leading" secondItem="bCI-y9-ELH" secondAttribute="leading" id="y96-wq-jH2"/>
-                            <constraint firstItem="8EF-rL-c9d" firstAttribute="top" secondItem="bCI-y9-ELH" secondAttribute="top" id="yze-CK-5EO"/>
-                            <constraint firstItem="ZAh-Pz-Ktb" firstAttribute="trailing" secondItem="bCI-y9-ELH" secondAttribute="trailing" id="ztK-ze-Uqi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bCI-y9-ELH"/>
                     </view>
@@ -856,7 +834,6 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
     </scenes>
     <resources>
         <image name="imageLoadingTime" width="600" height="61"/>
-        <image name="lsunused" width="618" height="498"/>
         <image name="measuring" width="884" height="486"/>
         <image name="mediaAPI" width="1670" height="698"/>
         <image name="paintcode" width="1816" height="1598"/>
