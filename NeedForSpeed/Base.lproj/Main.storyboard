@@ -16,9 +16,6 @@
         <array key="Hack-BoldItalic.ttf">
             <string>Hack-BoldItalic</string>
         </array>
-        <array key="Hack-Italic.ttf">
-            <string>Hack-Italic</string>
-        </array>
         <array key="Hack-Regular.ttf">
             <string>Hack-Regular</string>
         </array>
@@ -712,10 +709,10 @@ Made a PaintCode Catalogue of all cases</string>
             </objects>
             <point key="canvasLocation" x="6025" y="179"/>
         </scene>
-        <!--View Controller-->
+        <!--Imperfect Solution View Controller-->
         <scene sceneID="vFo-VO-UEv">
             <objects>
-                <viewController id="B6M-mh-hY2" sceneMemberID="viewController">
+                <viewController id="B6M-mh-hY2" customClass="ImperfectSolutionViewController" customModule="NeedForSpeed" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b7d-ZG-y95">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -739,19 +736,56 @@ Made a PaintCode Catalogue of all cases</string>
                                     <segue destination="WuJ-rt-uH1" kind="show" id="n4j-iP-WvD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drawbacks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wzc-VH-Uwu">
+                                <rect key="frame" x="40" y="104" width="295" height="82"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expensive Software" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAu-h0-CIm">
+                                <rect key="frame" x="-83.5" y="266" width="542" height="59"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BeN-pr-WvN">
+                                <rect key="frame" x="40" y="365" width="295" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BeN-pr-WvN" secondAttribute="height" multiplier="295:199" id="tDO-Zc-52Y"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Draw code compiles a bit slowly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSL-at-NPz">
+                                <rect key="frame" x="-279.5" y="644" width="934" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="BeN-pr-WvN" firstAttribute="top" secondItem="lAu-h0-CIm" secondAttribute="bottom" constant="40" id="Hhm-yk-2bT"/>
+                            <constraint firstItem="Xli-BK-aiN" firstAttribute="trailing" secondItem="BeN-pr-WvN" secondAttribute="trailing" constant="40" id="IaX-r9-iK6"/>
+                            <constraint firstItem="lAu-h0-CIm" firstAttribute="centerX" secondItem="b7d-ZG-y95" secondAttribute="centerX" id="NeX-EF-3G8"/>
+                            <constraint firstItem="Wzc-VH-Uwu" firstAttribute="leading" secondItem="Xli-BK-aiN" secondAttribute="leading" constant="40" id="NyB-9G-KXS"/>
                             <constraint firstItem="F8z-g0-eor" firstAttribute="leading" secondItem="Xli-BK-aiN" secondAttribute="leading" constant="20" id="T6U-4G-oPH"/>
                             <constraint firstItem="Xli-BK-aiN" firstAttribute="bottom" secondItem="F8z-g0-eor" secondAttribute="bottom" constant="20" id="VL8-Ik-lgu"/>
+                            <constraint firstItem="lAu-h0-CIm" firstAttribute="top" secondItem="Wzc-VH-Uwu" secondAttribute="bottom" constant="80" id="ead-RT-omK"/>
+                            <constraint firstAttribute="trailing" secondItem="Wzc-VH-Uwu" secondAttribute="trailing" constant="40" id="fX8-D1-bXQ"/>
+                            <constraint firstItem="BSL-at-NPz" firstAttribute="top" secondItem="BeN-pr-WvN" secondAttribute="bottom" constant="80" id="feN-0S-ocf"/>
+                            <constraint firstItem="BeN-pr-WvN" firstAttribute="leading" secondItem="Xli-BK-aiN" secondAttribute="leading" constant="40" id="oaL-NP-eLz"/>
+                            <constraint firstItem="BSL-at-NPz" firstAttribute="centerX" secondItem="b7d-ZG-y95" secondAttribute="centerX" id="pzK-t2-z2A"/>
+                            <constraint firstItem="Wzc-VH-Uwu" firstAttribute="top" secondItem="Xli-BK-aiN" secondAttribute="top" constant="40" id="qZ3-sO-lZX"/>
                             <constraint firstItem="Xli-BK-aiN" firstAttribute="trailing" secondItem="F8z-g0-eor" secondAttribute="trailing" constant="20" id="s7N-SE-cDZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xli-BK-aiN"/>
                     </view>
+                    <connections>
+                        <outlet property="expensiveImageView" destination="BeN-pr-WvN" id="bKK-Pc-cqL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gss-Nd-edk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6724" y="182"/>
+            <point key="canvasLocation" x="6724" y="181.25937031484258"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RgJ-l6-xGq">
@@ -788,7 +822,7 @@ Made a PaintCode Catalogue of all cases</string>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media API" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGV-ba-PU0">
                                 <rect key="frame" x="20" y="104" width="335" height="81.5"/>
-                                <fontDescription key="fontDescription" name="Hack-Italic" family="Hack" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -819,7 +853,7 @@ Made a PaintCode Catalogue of all cases</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9VV-Rs-AfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7393" y="179"/>
+            <point key="canvasLocation" x="7420" y="179"/>
         </scene>
         <!--Hooray View Controller-->
         <scene sceneID="LIN-Wc-jrO">

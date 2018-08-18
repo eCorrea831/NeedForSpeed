@@ -21,6 +21,7 @@
 		EDB24BE8200556CA0084EE4E /* Hack-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE5200556A50084EE4E /* Hack-Italic.ttf */; };
 		EDB24BE9200556CD0084EE4E /* Hack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDB24BE4200556A40084EE4E /* Hack-Regular.ttf */; };
 		EDBA96331FB139E000A5762F /* HoorayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA96321FB139E000A5762F /* HoorayViewController.swift */; };
+		EDF226F82128BA1C00B600CC /* ImperfectSolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF226F72128BA1C00B600CC /* ImperfectSolutionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EDB24BE4200556A40084EE4E /* Hack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Regular.ttf"; sourceTree = "<group>"; };
 		EDB24BE5200556A50084EE4E /* Hack-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Italic.ttf"; sourceTree = "<group>"; };
 		EDBA96321FB139E000A5762F /* HoorayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoorayViewController.swift; sourceTree = "<group>"; };
+		EDF226F72128BA1C00B600CC /* ImperfectSolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperfectSolutionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				ED9E3A8D1FA3B18F00094A4B /* WhyThisMattersViewController.swift */,
 				ED22401A1FA3B80900C79D37 /* WhatThisMeansForMobile.swift */,
 				ED6DB6C71FA3D42A0046A3F8 /* WhatsTakingSoLong.swift */,
+				EDF226F72128BA1C00B600CC /* ImperfectSolutionViewController.swift */,
 				EDBA96321FB139E000A5762F /* HoorayViewController.swift */,
 				ED9E3A7B1FA3A84600094A4B /* Main.storyboard */,
 				ED9E3A7E1FA3A84600094A4B /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 				ED9E3A8E1FA3B18F00094A4B /* WhyThisMattersViewController.swift in Sources */,
 				ED6DB6C81FA3D42A0046A3F8 /* WhatsTakingSoLong.swift in Sources */,
 				ED9E3A7A1FA3A84600094A4B /* IntroViewController.swift in Sources */,
+				EDF226F82128BA1C00B600CC /* ImperfectSolutionViewController.swift in Sources */,
 				ED9E3A8C1FA3AF6A00094A4B /* iOSDevCenters+GIF.swift in Sources */,
 				ED9E3A781FA3A84600094A4B /* AppDelegate.swift in Sources */,
 				ED22401B1FA3B80900C79D37 /* WhatThisMeansForMobile.swift in Sources */,
