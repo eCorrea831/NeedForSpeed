@@ -108,25 +108,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Strange Loop Conference, St. Louis " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
-                                <rect key="frame" x="20" y="104" width="2027" height="81.5"/>
+                                <rect key="frame" x="20" y="104" width="335" height="408"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
-                                <rect key="frame" x="40" y="370" width="1987" height="58.5"/>
+                                <rect key="frame" x="40" y="-212" width="295" height="233"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
-                                <rect key="frame" x="40" y="468.5" width="1987" height="58.5"/>
+                                <rect key="frame" x="40" y="61" width="295" height="466"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDL-nr-vcL">
-                                <rect key="frame" x="20" y="567" width="2027" height="80"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Lhs-sa-E1g"/>
@@ -145,7 +145,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
-                                <rect key="frame" x="300" y="225.5" width="2487.5" height="3264"/>
+                                <rect key="frame" x="300" y="552" width="2487.5" height="3264"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="nAR-wS-V62" secondAttribute="height" multiplier="157:206" id="wRG-Pg-NMK"/>
                                 </constraints>
@@ -188,19 +188,19 @@
                                 <rect key="frame" x="40" y="320" width="295" height="207"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile users expect  their apps to take 4 seconds or less to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V63-qM-mlO">
-                                        <rect key="frame" x="0.0" y="0.0" width="295" height="69"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="73"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23% of users abandon an app after the first use" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wud-gp-MOS">
-                                        <rect key="frame" x="0.0" y="69" width="295" height="69"/>
+                                        <rect key="frame" x="0.0" y="73" width="295" height="61"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In making that first impression, there's not a second to spare" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9v1-Gx-95B">
-                                        <rect key="frame" x="0.0" y="138" width="295" height="69"/>
+                                        <rect key="frame" x="0.0" y="134" width="295" height="73"/>
                                         <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -369,7 +369,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyD-eb-Ik9">
-                                <rect key="frame" x="20" y="567" width="1455" height="80"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="HNq-36-rt3"/>
@@ -388,7 +388,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SURPRISE!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MY8-qV-ZO5">
-                                <rect key="frame" x="557.5" y="104" width="380" height="81.5"/>
+                                <rect key="frame" x="-2.5" y="104" width="380" height="81.5"/>
                                 <fontDescription key="fontDescription" name="Hack-BoldItalic" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -400,13 +400,13 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="imageLoadingTime" translatesAutoresizingMaskIntoConstraints="NO" id="T6v-lF-dPt">
-                                <rect key="frame" x="20" y="284" width="1455" height="93"/>
+                                <rect key="frame" x="20" y="284" width="335" height="93"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="T6v-lF-dPt" secondAttribute="height" multiplier="335:93" id="LtN-2w-ExB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="70% of our launch time was spent loading images" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqg-5g-CG4">
-                                <rect key="frame" x="40" y="417" width="1415" height="407.5"/>
+                                <rect key="frame" x="40" y="417" width="295" height="407.5"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -448,7 +448,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE5-zp-HWd">
-                                <rect key="frame" x="20" y="567" width="4823" height="80"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Gx0-Du-dyX"/>
@@ -467,13 +467,13 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thinking" translatesAutoresizingMaskIntoConstraints="NO" id="bxx-EZ-kbf">
-                                <rect key="frame" x="300" y="276.5" width="928" height="1273.5"/>
+                                <rect key="frame" x="300" y="1115" width="928" height="1273.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bxx-EZ-kbf" secondAttribute="height" multiplier="51:70" id="wpf-dJ-CNu"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="949-Me-Sj1">
-                                <rect key="frame" x="20" y="144" width="4823" height="52.5"/>
+                                <rect key="frame" x="20" y="144" width="335" height="891"/>
                                 <string key="text">Images are so important to delighting our users so rather than use less images we needed to think of better ways to include them in the app rather than clog up our assets catalog</string>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="45"/>
                                 <nil key="textColor"/>
@@ -576,12 +576,12 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wc-Nk-Rn8">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="f05-ac-CIb"/>
+                                    <constraint firstAttribute="height" constant="80" id="f05-ac-CIb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
                                 <state key="normal" title="What About Bitmap?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -594,28 +594,22 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                     <segue destination="WuJ-rt-uH1" kind="show" id="Pvu-Mv-E15"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaintCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhr-o5-gTy">
-                                <rect key="frame" x="20" y="171" width="335" height="23.5"/>
-                                <fontDescription key="fontDescription" name="Hack-Italic" family="Hack" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Different Solutions for Vector and Bitmap Images" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5g-ya-0m6">
-                                <rect key="frame" x="20" y="94" width="335" height="47"/>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="20"/>
+                                <rect key="frame" x="20" y="94" width="335" height="291.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paintcode" translatesAutoresizingMaskIntoConstraints="NO" id="iS5-0U-rsS">
-                                <rect key="frame" x="20" y="339.5" width="335" height="267"/>
+                                <rect key="frame" x="20" y="865" width="335" height="267"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="iS5-0U-rsS" secondAttribute="height" multiplier="335:267" id="yQX-xo-XSm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjb-KY-w0X">
-                                <rect key="frame" x="20" y="214.5" width="335" height="105"/>
-                                <string key="text">Using PaintCode software we are able to transform our vector images into drawn code. We just drag the image in and export a Swift file that we then add to the Xcode project.</string>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjb-KY-w0X">
+                                <rect key="frame" x="20" y="425.5" width="335" height="419.5"/>
+                                <string key="text">Using software like PaintCode and QuartzCode we are able to transform our vector images into drawn code. We just drag the image in and export a Swift file that we then add to the Xcode project.</string>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -623,18 +617,15 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2wc-Nk-Rn8" firstAttribute="leading" secondItem="wdh-Fp-fA2" secondAttribute="leading" constant="20" id="0s9-Z4-Iiw"/>
-                            <constraint firstItem="Bjb-KY-w0X" firstAttribute="top" secondItem="Zhr-o5-gTy" secondAttribute="bottom" constant="20" id="1OQ-w1-l02"/>
                             <constraint firstItem="o5g-ya-0m6" firstAttribute="leading" secondItem="wdh-Fp-fA2" secondAttribute="leading" constant="20" id="8ag-DX-TYF"/>
-                            <constraint firstItem="Zhr-o5-gTy" firstAttribute="leading" secondItem="wdh-Fp-fA2" secondAttribute="leading" constant="20" id="A0N-ly-DYO"/>
                             <constraint firstItem="wdh-Fp-fA2" firstAttribute="trailing" secondItem="iS5-0U-rsS" secondAttribute="trailing" constant="20" id="Gfo-au-rvy"/>
                             <constraint firstItem="iS5-0U-rsS" firstAttribute="leading" secondItem="wdh-Fp-fA2" secondAttribute="leading" constant="20" id="Kgq-py-Hsi"/>
                             <constraint firstAttribute="trailing" secondItem="2wc-Nk-Rn8" secondAttribute="trailing" constant="20" id="Krd-L9-9YY"/>
                             <constraint firstItem="o5g-ya-0m6" firstAttribute="top" secondItem="wdh-Fp-fA2" secondAttribute="top" constant="30" id="TeZ-Ta-Q5i"/>
-                            <constraint firstItem="wdh-Fp-fA2" firstAttribute="trailing" secondItem="Zhr-o5-gTy" secondAttribute="trailing" constant="20" id="VTG-g0-s0g"/>
                             <constraint firstItem="wdh-Fp-fA2" firstAttribute="bottom" secondItem="2wc-Nk-Rn8" secondAttribute="bottom" constant="20" id="W83-DC-QRN"/>
                             <constraint firstItem="Bjb-KY-w0X" firstAttribute="leading" secondItem="wdh-Fp-fA2" secondAttribute="leading" constant="20" id="Yhe-Yo-je9"/>
+                            <constraint firstItem="Bjb-KY-w0X" firstAttribute="top" secondItem="o5g-ya-0m6" secondAttribute="bottom" constant="40" id="fCI-CQ-PYW"/>
                             <constraint firstAttribute="trailing" secondItem="o5g-ya-0m6" secondAttribute="trailing" constant="20" id="fdE-vY-dgq"/>
-                            <constraint firstItem="Zhr-o5-gTy" firstAttribute="top" secondItem="o5g-ya-0m6" secondAttribute="bottom" constant="30" id="fsy-ou-Mxw"/>
                             <constraint firstItem="iS5-0U-rsS" firstAttribute="top" secondItem="Bjb-KY-w0X" secondAttribute="bottom" constant="20" id="ooC-vq-MCT"/>
                             <constraint firstItem="wdh-Fp-fA2" firstAttribute="trailing" secondItem="Bjb-KY-w0X" secondAttribute="trailing" constant="20" id="x34-jD-J1c"/>
                         </constraints>
@@ -654,12 +645,12 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-OS-Lal">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="KLR-ck-jA6"/>
+                                    <constraint firstAttribute="height" constant="80" id="KLR-ck-jA6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
                                 <state key="normal" title="Did it Work?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -672,20 +663,20 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                     <segue destination="iq8-6l-XR9" kind="show" id="M1F-B4-R4Q"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We store our bitmap images in the cloud using our Media API so we can call the images at run-time." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc6-nh-N9i">
-                                <rect key="frame" x="20" y="167.5" width="335" height="84"/>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We store our bitmap images in the cloud using our Media API so we can call the images at run-time." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc6-nh-N9i">
+                                <rect key="frame" x="20" y="265.5" width="335" height="582.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media API" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGV-ba-PU0">
-                                <rect key="frame" x="20" y="104" width="335" height="23.5"/>
-                                <fontDescription key="fontDescription" name="Hack-Italic" family="Hack" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media API" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGV-ba-PU0">
+                                <rect key="frame" x="20" y="104" width="335" height="81.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Italic" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mediaAPI" translatesAutoresizingMaskIntoConstraints="NO" id="jCq-XK-MzY">
-                                <rect key="frame" x="0.0" y="310" width="375" height="181"/>
+                                <rect key="frame" x="40" y="224.5" width="295" height="142.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jCq-XK-MzY" secondAttribute="height" multiplier="375:181" id="Yck-OM-cnz"/>
                                 </constraints>
@@ -694,15 +685,15 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="fGV-ba-PU0" firstAttribute="top" secondItem="CcW-ZF-1tu" secondAttribute="top" constant="40" id="7dr-p7-07X"/>
-                            <constraint firstItem="jCq-XK-MzY" firstAttribute="leading" secondItem="CcW-ZF-1tu" secondAttribute="leading" id="A1H-Zb-DxX"/>
-                            <constraint firstItem="jCq-XK-MzY" firstAttribute="trailing" secondItem="CcW-ZF-1tu" secondAttribute="trailing" id="Let-6X-HZ6"/>
+                            <constraint firstItem="jCq-XK-MzY" firstAttribute="leading" secondItem="CcW-ZF-1tu" secondAttribute="leading" constant="40" id="A1H-Zb-DxX"/>
                             <constraint firstItem="CcW-ZF-1tu" firstAttribute="bottom" secondItem="oxf-OS-Lal" secondAttribute="bottom" constant="20" id="M6E-7I-hth"/>
                             <constraint firstItem="fGV-ba-PU0" firstAttribute="leading" secondItem="CcW-ZF-1tu" secondAttribute="leading" constant="20" id="Xdl-IT-Zv6"/>
+                            <constraint firstAttribute="trailing" secondItem="jCq-XK-MzY" secondAttribute="trailing" constant="40" id="anQ-0E-A9Z"/>
                             <constraint firstItem="Tc6-nh-N9i" firstAttribute="leading" secondItem="CcW-ZF-1tu" secondAttribute="leading" constant="20" id="dim-JH-COp"/>
                             <constraint firstItem="oxf-OS-Lal" firstAttribute="leading" secondItem="0KV-GW-Oy3" secondAttribute="leading" constant="20" id="en1-Li-5mW"/>
-                            <constraint firstItem="Tc6-nh-N9i" firstAttribute="top" secondItem="fGV-ba-PU0" secondAttribute="bottom" constant="40" id="hcM-0S-0sd"/>
+                            <constraint firstItem="Tc6-nh-N9i" firstAttribute="top" secondItem="fGV-ba-PU0" secondAttribute="bottom" constant="80" id="hcM-0S-0sd"/>
                             <constraint firstItem="CcW-ZF-1tu" firstAttribute="trailing" secondItem="Tc6-nh-N9i" secondAttribute="trailing" constant="20" id="lKw-f4-UfK"/>
-                            <constraint firstItem="oxf-OS-Lal" firstAttribute="top" secondItem="jCq-XK-MzY" secondAttribute="bottom" constant="112" id="rlB-na-b20"/>
+                            <constraint firstItem="oxf-OS-Lal" firstAttribute="top" secondItem="jCq-XK-MzY" secondAttribute="bottom" constant="200" id="rlB-na-b20"/>
                             <constraint firstItem="CcW-ZF-1tu" firstAttribute="trailing" secondItem="fGV-ba-PU0" secondAttribute="trailing" constant="20" id="v0j-KR-kII"/>
                             <constraint firstItem="CcW-ZF-1tu" firstAttribute="trailing" secondItem="oxf-OS-Lal" secondAttribute="trailing" constant="20" id="w8A-ue-nbj"/>
                         </constraints>
@@ -722,33 +713,31 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="756-Ut-BWt">
-                                <rect key="frame" x="20" y="254" width="335" height="192"/>
+                                <rect key="frame" x="20" y="623" width="335" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="756-Ut-BWt" secondAttribute="height" multiplier="335:192" id="rkW-6N-z2W"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owz-z1-puQ">
-                                <rect key="frame" x="20" y="144" width="335" height="70"/>
-                                <string key="text">Current App launch time is: 480 ms
-</string>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current App launch time is: 480ms" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owz-z1-puQ">
+                                <rect key="frame" x="20" y="104" width="335" height="489"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZc-wm-fvG">
-                                <rect key="frame" x="20" y="486" width="335" height="147"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZc-wm-fvG">
+                                <rect key="frame" x="20" y="895" width="335" height="838.5"/>
                                 <string key="text">When we run the app now it doesn't even list our image load time because it's negligible. We still need to check our app for unused resources every year so we can maintain this going forward.</string>
-                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbj-wA-DrY">
-                                <rect key="frame" x="20" y="603" width="335" height="44"/>
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="4cA-N9-hcZ"/>
+                                    <constraint firstAttribute="height" constant="80" id="4cA-N9-hcZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
                                 <state key="normal" title="...">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -765,17 +754,17 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="gZc-wm-fvG" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="4Ar-6g-Wr7"/>
-                            <constraint firstItem="756-Ut-BWt" firstAttribute="top" secondItem="Owz-z1-puQ" secondAttribute="bottom" constant="40" id="5LI-DF-ZUJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Owz-z1-puQ" secondAttribute="trailing" constant="20" id="5HA-I9-cSp"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="cbj-wA-DrY" secondAttribute="trailing" constant="20" id="6zJ-zq-i9H"/>
+                            <constraint firstItem="Owz-z1-puQ" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="Hs4-he-dO8"/>
                             <constraint firstItem="756-Ut-BWt" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="PIy-hy-ZTV"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="gZc-wm-fvG" secondAttribute="trailing" constant="20" id="QbP-Hq-s41"/>
-                            <constraint firstItem="Owz-z1-puQ" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="Sg4-7w-Czg"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="bottom" secondItem="cbj-wA-DrY" secondAttribute="bottom" constant="20" id="Ucf-NG-sxx"/>
                             <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="756-Ut-BWt" secondAttribute="trailing" constant="20" id="aY0-Dh-IXB"/>
-                            <constraint firstItem="Owz-z1-puQ" firstAttribute="top" secondItem="KXf-Xt-tTL" secondAttribute="top" constant="80" id="fin-s1-o98"/>
+                            <constraint firstItem="Owz-z1-puQ" firstAttribute="top" secondItem="KXf-Xt-tTL" secondAttribute="top" constant="40" id="fin-s1-o98"/>
                             <constraint firstItem="cbj-wA-DrY" firstAttribute="leading" secondItem="KXf-Xt-tTL" secondAttribute="leading" constant="20" id="gGU-41-hHP"/>
-                            <constraint firstItem="KXf-Xt-tTL" firstAttribute="trailing" secondItem="Owz-z1-puQ" secondAttribute="trailing" constant="20" id="pRp-Dn-KA5"/>
-                            <constraint firstItem="gZc-wm-fvG" firstAttribute="top" secondItem="756-Ut-BWt" secondAttribute="bottom" constant="40" id="rzE-RS-Ucg"/>
+                            <constraint firstItem="756-Ut-BWt" firstAttribute="top" secondItem="Owz-z1-puQ" secondAttribute="bottom" constant="30" id="p79-Mg-5Z1"/>
+                            <constraint firstItem="gZc-wm-fvG" firstAttribute="top" secondItem="756-Ut-BWt" secondAttribute="bottom" constant="80" id="rzE-RS-Ucg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KXf-Xt-tTL"/>
                     </view>
