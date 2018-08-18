@@ -936,17 +936,44 @@ Made a PaintCode Catalogue of all cases</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questions" translatesAutoresizingMaskIntoConstraints="NO" id="MvV-g2-YaD">
-                                <rect key="frame" x="0.0" y="214.5" width="375" height="238"/>
+                                <rect key="frame" x="0.0" y="164" width="375" height="238"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="MvV-g2-YaD" secondAttribute="height" multiplier="375:238" id="kkY-jI-uvS"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Github: eCorrea831" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWS-qB-SkS">
+                                <rect key="frame" x="40" y="482" width="295" height="59"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter: @CodeWithCooties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wan-rM-yYl">
+                                <rect key="frame" x="40" y="581" width="295" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="erica.correa831@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zun-7u-o81">
+                                <rect key="frame" x="40" y="679.5" width="295" height="58.5"/>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wan-rM-yYl" firstAttribute="leading" secondItem="emW-Xz-sj8" secondAttribute="leading" constant="40" id="DWt-S8-Ji7"/>
+                            <constraint firstItem="tWS-qB-SkS" firstAttribute="top" secondItem="MvV-g2-YaD" secondAttribute="bottom" constant="80" id="DqP-NC-p9j"/>
+                            <constraint firstItem="emW-Xz-sj8" firstAttribute="trailing" secondItem="Zun-7u-o81" secondAttribute="trailing" constant="40" id="IXD-vH-g2u"/>
                             <constraint firstItem="MvV-g2-YaD" firstAttribute="trailing" secondItem="emW-Xz-sj8" secondAttribute="trailing" id="TWV-ry-KlJ"/>
-                            <constraint firstItem="MvV-g2-YaD" firstAttribute="centerY" secondItem="SYu-pw-tUt" secondAttribute="centerY" id="gqG-8A-00O"/>
+                            <constraint firstItem="Zun-7u-o81" firstAttribute="top" secondItem="wan-rM-yYl" secondAttribute="bottom" constant="40" id="Vsw-Tg-YlR"/>
+                            <constraint firstItem="emW-Xz-sj8" firstAttribute="trailing" secondItem="wan-rM-yYl" secondAttribute="trailing" constant="40" id="Xrp-KV-1aH"/>
+                            <constraint firstAttribute="trailing" secondItem="tWS-qB-SkS" secondAttribute="trailing" constant="40" id="aJc-aL-olr"/>
+                            <constraint firstItem="Zun-7u-o81" firstAttribute="leading" secondItem="emW-Xz-sj8" secondAttribute="leading" constant="40" id="m7F-tY-A7b"/>
+                            <constraint firstItem="wan-rM-yYl" firstAttribute="top" secondItem="tWS-qB-SkS" secondAttribute="bottom" constant="40" id="mBP-rm-vrB"/>
+                            <constraint firstItem="MvV-g2-YaD" firstAttribute="top" secondItem="emW-Xz-sj8" secondAttribute="top" constant="100" id="s4T-kC-ljd"/>
                             <constraint firstItem="MvV-g2-YaD" firstAttribute="leading" secondItem="emW-Xz-sj8" secondAttribute="leading" id="tXz-T1-tFM"/>
+                            <constraint firstItem="tWS-qB-SkS" firstAttribute="leading" secondItem="emW-Xz-sj8" secondAttribute="leading" constant="40" id="voW-JJ-aXL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="emW-Xz-sj8"/>
                     </view>
