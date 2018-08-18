@@ -582,7 +582,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                     <constraint firstAttribute="height" constant="80" id="f05-ac-CIb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
-                                <state key="normal" title="What About Bitmap?">
+                                <state key="normal" title="How do you use it?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -591,7 +591,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="WuJ-rt-uH1" kind="show" id="Pvu-Mv-E15"/>
+                                    <segue destination="CaA-KC-X9p" kind="show" id="lYC-Uu-cS0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Different Solutions for Vector and Bitmap Images" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5g-ya-0m6">
@@ -635,6 +635,123 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Gc-aN-z9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5324" y="179.46026986506749"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NtO-to-W1d">
+            <objects>
+                <viewController id="CaA-KC-X9p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y9f-UN-Ohj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deo-fD-eez">
+                                <rect key="frame" x="40" y="104" width="295" height="383"/>
+                                <string key="text">Things we did to 
+make it easier</string>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A60-oX-kYi">
+                                <rect key="frame" x="20" y="527" width="112.5" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Resizing Behavior in every PaintCode file so we made it dry-er
+
+Made a Parent View for initing &amp; drawing
+
+Made an enum with a case for each asset
+
+Made a PaintCode Catalogue of all cases</string>
+                                <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="paintcode_parentview" translatesAutoresizingMaskIntoConstraints="NO" id="u5P-W0-eIK">
+                                <rect key="frame" x="112.5" y="527" width="242.5" height="0.0"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJu-WT-q7j">
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="03P-aB-aA5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
+                                <state key="normal" title="Is that a perfect solution?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="B6M-mh-hY2" kind="show" id="2Qd-kq-5IE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u5P-W0-eIK" firstAttribute="top" secondItem="A60-oX-kYi" secondAttribute="top" id="0CA-MU-42Z"/>
+                            <constraint firstItem="ZZN-DZ-uzA" firstAttribute="trailing" secondItem="OJu-WT-q7j" secondAttribute="trailing" constant="20" id="0LI-kF-P1W"/>
+                            <constraint firstItem="A60-oX-kYi" firstAttribute="trailing" secondItem="u5P-W0-eIK" secondAttribute="leading" constant="20" id="7UQ-B1-4dd"/>
+                            <constraint firstItem="ZZN-DZ-uzA" firstAttribute="trailing" secondItem="deo-fD-eez" secondAttribute="trailing" constant="40" id="G7D-FS-nww"/>
+                            <constraint firstItem="A60-oX-kYi" firstAttribute="width" secondItem="Y9f-UN-Ohj" secondAttribute="width" multiplier="0.3" id="JBA-c6-e5G"/>
+                            <constraint firstItem="deo-fD-eez" firstAttribute="top" secondItem="ZZN-DZ-uzA" secondAttribute="top" constant="40" id="JMA-ef-sly"/>
+                            <constraint firstItem="u5P-W0-eIK" firstAttribute="bottom" secondItem="A60-oX-kYi" secondAttribute="bottom" id="KhS-Se-1Cr"/>
+                            <constraint firstItem="ZZN-DZ-uzA" firstAttribute="bottom" secondItem="OJu-WT-q7j" secondAttribute="bottom" constant="20" id="Qf6-Gp-yO2"/>
+                            <constraint firstItem="OJu-WT-q7j" firstAttribute="top" secondItem="A60-oX-kYi" secondAttribute="bottom" constant="80" id="e7t-RL-hmr"/>
+                            <constraint firstAttribute="trailing" secondItem="u5P-W0-eIK" secondAttribute="trailing" constant="20" id="gsp-jG-EdK"/>
+                            <constraint firstItem="A60-oX-kYi" firstAttribute="leading" secondItem="ZZN-DZ-uzA" secondAttribute="leading" constant="20" id="h08-be-QiN"/>
+                            <constraint firstItem="deo-fD-eez" firstAttribute="leading" secondItem="ZZN-DZ-uzA" secondAttribute="leading" constant="40" id="uch-Zb-IYo"/>
+                            <constraint firstItem="A60-oX-kYi" firstAttribute="top" secondItem="deo-fD-eez" secondAttribute="bottom" constant="80" id="vZk-vh-u4J"/>
+                            <constraint firstItem="OJu-WT-q7j" firstAttribute="leading" secondItem="ZZN-DZ-uzA" secondAttribute="leading" constant="20" id="wz5-Hd-zWQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZZN-DZ-uzA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Zc-le-SMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6025" y="179"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vFo-VO-UEv">
+            <objects>
+                <viewController id="B6M-mh-hY2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b7d-ZG-y95">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8z-g0-eor">
+                                <rect key="frame" x="20" y="567" width="335" height="80"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="rZM-8o-pke"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Hack-Bold" family="Hack" pointSize="50"/>
+                                <state key="normal" title="What About Bitmap?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="WuJ-rt-uH1" kind="show" id="n4j-iP-WvD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F8z-g0-eor" firstAttribute="leading" secondItem="Xli-BK-aiN" secondAttribute="leading" constant="20" id="T6U-4G-oPH"/>
+                            <constraint firstItem="Xli-BK-aiN" firstAttribute="bottom" secondItem="F8z-g0-eor" secondAttribute="bottom" constant="20" id="VL8-Ik-lgu"/>
+                            <constraint firstItem="Xli-BK-aiN" firstAttribute="trailing" secondItem="F8z-g0-eor" secondAttribute="trailing" constant="20" id="s7N-SE-cDZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xli-BK-aiN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gss-Nd-edk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6724" y="182"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RgJ-l6-xGq">
@@ -702,7 +819,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9VV-Rs-AfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6028" y="179.46026986506749"/>
+            <point key="canvasLocation" x="7393" y="179"/>
         </scene>
         <!--Hooray View Controller-->
         <scene sceneID="LIN-Wc-jrO">
@@ -774,7 +891,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9s3-Lc-UCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6750" y="180"/>
+            <point key="canvasLocation" x="8114" y="179"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="O49-Nl-yRq">
@@ -802,7 +919,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kGB-QX-v10" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7465" y="180"/>
+            <point key="canvasLocation" x="8830" y="179"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zLN-Vn-9Jj">
@@ -826,6 +943,7 @@ Scheme, Device type, Internet, Cold -vs- Warm starts
         <image name="measuring" width="884" height="486"/>
         <image name="mediaAPI" width="1670" height="698"/>
         <image name="paintcode" width="1816" height="1598"/>
+        <image name="paintcode_parentview" width="1214" height="1204"/>
         <image name="questions" width="500" height="312"/>
         <image name="saint_louis" width="2448" height="3264"/>
         <image name="thinking" width="928" height="1238"/>
