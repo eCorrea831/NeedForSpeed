@@ -1,7 +1,6 @@
 import UIKit
 
 class HoorayViewController: UIViewController {
-
     @IBOutlet weak var celebrateImageView: UIImageView!
 
     override func viewDidLoad() {

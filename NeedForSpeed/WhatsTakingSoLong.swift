@@ -1,7 +1,6 @@
 import UIKit
 
 class WhatsTakingSoLongViewController: UIViewController {
-    
     @IBOutlet weak var surpriseImageView: UIImageView!
 
     override func viewDidLoad() {

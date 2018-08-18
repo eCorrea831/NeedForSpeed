@@ -1,7 +1,6 @@
 import UIKit
 
 class WhatThisMeansForMobile: UIViewController {
-    
     @IBOutlet weak var angryPhoneImageView: UIImageView!
 
     override func viewDidLoad() {

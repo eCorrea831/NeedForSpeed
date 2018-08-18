@@ -1,5 +1,5 @@
 import UIKit
-//https://giphy.com/gifs/chuber-thanks-thank-you-a-bunch-3oEjHWXddcCOGZNmFO
+
 class ImperfectSolutionViewController: UIViewController {
     @IBOutlet weak var expensiveImageView: UIImageView!
 

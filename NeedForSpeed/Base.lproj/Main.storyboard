@@ -96,34 +96,34 @@
             </objects>
             <point key="canvasLocation" x="325.60000000000002" y="178.56071964017991"/>
         </scene>
-        <!--Why This Matters View Controller-->
+        <!--View Controller-->
         <scene sceneID="gHY-Uh-8JA">
             <objects>
-                <viewController id="roN-G8-2ss" customClass="WhyThisMattersViewController" customModule="NeedForSpeed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="roN-G8-2ss" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d8b-YW-TeQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Strange Loop Conference, St. Louis " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-Ow-hCf">
-                                <rect key="frame" x="20" y="104" width="335" height="408"/>
+                                <rect key="frame" x="20" y="104" width="2027" height="81.5"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="70"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="The Future of the Mobile Web talk by Paul Kinlan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlx-3B-l5S">
-                                <rect key="frame" x="40" y="-212" width="295" height="233"/>
+                                <rect key="frame" x="40" y="370" width="1987" height="58.5"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="40% of users abandon a site that takes more than 3 seconds to load" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPz-V2-B0S">
-                                <rect key="frame" x="40" y="61" width="295" height="466"/>
+                                <rect key="frame" x="40" y="468.5" width="1987" height="58.5"/>
                                 <fontDescription key="fontDescription" name="Hack-Regular" family="Hack" pointSize="50"/>
                                 <color key="textColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDL-nr-vcL">
-                                <rect key="frame" x="20" y="567" width="335" height="80"/>
+                                <rect key="frame" x="20" y="567" width="2027" height="80"/>
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.46666666670000001" blue="0.41568627450000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Lhs-sa-E1g"/>
@@ -142,7 +142,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saint_louis" translatesAutoresizingMaskIntoConstraints="NO" id="nAR-wS-V62">
-                                <rect key="frame" x="300" y="552" width="2487.5" height="3264"/>
+                                <rect key="frame" x="300" y="225.5" width="2487.5" height="3264"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="nAR-wS-V62" secondAttribute="height" multiplier="157:206" id="wRG-Pg-NMK"/>
                                 </constraints>
